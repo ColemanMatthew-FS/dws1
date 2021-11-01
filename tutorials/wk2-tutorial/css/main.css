@@ -1,0 +1,76 @@
+/* Google Fonts ======================== */
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,400i');
+/* CSS Reset =========================== */
+body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 100%;
+	text-decoration: none;
+	font-weight: normal;
+	color: inherit;
+	box-sizing: border-box;
+}
+
+/* Typography Defaults ================= */
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.4rem;
+	line-height: 1.6;
+	font-family: "Open Sans", sans-serif;
+	color: #777777;
+	background-color: #222222;
+}
+h1, h2{
+	line-height: 1;
+	font-family:"abel", sans-serif;
+	color:#ffffff;
+}
+h1{
+	font-size: 7rem;
+	margin:2rem 0 1rem 0;
+}
+h2{
+	font-size: 2.6rem;
+	margin: 2rem 0 1rem 0;
+}
+h3{
+	font-size:1.6rem;
+	color:#aaaaaa;
+	margin-bottom: 1rem;
+}
+p{
+	margin-bottom:2rem;
+}
+/* Default Structure =================== */
+
+/* Header ============================== */
+header{
+	background-color:#ffffff
+}
+nav a{
+	color:#555555
+}
+/* Blog ================================ */
+
+/* News ================================ */
+time span{
+	font-size:5rem;
+	color:#eeeeee;
+	vertical-align:middle;
+}
+/* About================================ */
+
+/* Donation ============================ */
+
+/* Footer ============================== */
+footer h2{
+	font-size:1.6rem;
+	color:#aaaaaa;
+}
+#tags a{
+	background-color:#e74c3c;
+	color:#eeeeee
+}
