@@ -19,13 +19,17 @@ html{
 body{
 	font-size: 1.4rem;
 	line-height: 1.6;
-	font-family: "Open Sans", sans-serif;
-	color: #777777;
-	background-color: #222222;
+	/* 1st new font family */
+	font-family: "roboto", sans-serif;
+	/* 1st new foreground color */
+	color: #BEC7C7;
+	/* gradient */
+	background:linear-gradient(#121317,#544859)
 }
 h1, h2{
 	line-height: 1;
-	font-family:"abel", sans-serif;
+	/* 2nd new font family */
+	font-family:"lato", sans-serif;
 	color:#ffffff;
 }
 h1{
@@ -65,7 +69,8 @@ nav, body > section, footer{
 
 /* Header ============================== */
 header{
-	background-color:#ffffff
+	/* 1st new background color */
+	background-color:#c7d3e6
 }
 nav a{
 	color:#555555
@@ -100,21 +105,23 @@ time span{
 
 /* Donation ============================ */
 #donation{
-	background-image:url("urltoimg");
-	background-image:url("https://coolbackgrounds.io/images/backgrounds/black/black-triangle-b9cb7263.jpg");
+	/* new background image */
+	background-image:url("https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-repeat:no-repeat;
 }
 /* Footer ============================== */
 footer h2{
 	font-size:1.6rem;
-	color:#aaaaaa;
+	/* 2nd new foreground color */
+	color:#d6d6d6;
 	margin-bottom:1rem;
 }
 #tags li{
 	display:inline-block;
 }
 #tags a{
-	background-color:#e74c3c;
+	/* 2nd new background color */
+	background-color:#c5835d;
 	color:#eeeeee;
 	padding:0 .5rem .25rem .5rem;
 }
