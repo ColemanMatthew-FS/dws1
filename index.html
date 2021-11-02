@@ -5,77 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DWS1 Dataox: Service Single</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!-- header -->
-    <header>
-        <!-- logo -->
-        <h1><a href="#"></a>Dataox</h1>
-        <!-- navigation -->
-        <nav>
+    <div class="intro">
+        <!-- header -->
+        <header>
+            <!-- logo -->
+            <a href="#"><img id="logo" src="#urltoimg" alt="logo"></a>
+            <!-- navigation -->
+            <nav>
+                <ul class="dropdown">
+                    <!-- Each of these <li>s could be turned into dropdowns using <div> tags and CSS, but that's not for today -->
+                    <li>
+                        <p>Home</p>
+                        <ul>
+                            <li><a href="#">Homepage 01</a></li>
+                            <li><a href="#">Homepage 02</a></li>
+                            <li><a href="#">Homepage 03</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Our Pricing</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Account Page</a></li>
+                            <li><a href="#">404 Error</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                        <ul>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Service Details</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Get Quote</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- breadcrumbs -->
+        <section id="breadcrumbs">
+            <h2>Service Single</h2>
+            <!-- CSS could turn this list into breadcrumbs -->
             <ul>
-                <!-- Each of these <li>s could be turned into dropdowns using <div> tags and CSS, but that's not for today -->
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">Homepage 01</a>
-                    <a href="#">Homepage 02</a>
-                    <a href="#">Homepage 03</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Pages</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Our Team</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Our Pricing</a>
-                    <a href="#">Faq</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Account Page</a>
-                    <a href="#">404 Error</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Coming Soon</a>
-                </li>
-                <li>
-                    <a href="#">Service</a>
-                    <a href="#">Service</a>
-                    <a href="#">Service Details</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Blog Single</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Quote</a>
-                </li>
+                <li><a href="#">Home</a></li>
+                <li id="service">Service Single</li>
             </ul>
-        </nav>
-    </header>
-    <!-- breadcrumbs -->
-    <section id="breadcrumbs">
-        <h2>Services</h2>
-        <!-- CSS could turn this list into breadcrumbs -->
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li>Services</li>
-        </ul>
-    </section>
+        </section>
+    </div>
     <main>
         <article>
-            <!-- this could be hidden with CSS -->
-            <h2>Data Research</h2>
             <img src="images/1.jpg" alt="A generic tech graphic">
             <section id="data-research">
                 <h3>Data Research</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et.</p>
                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example</p>
-                <p><img src="images/2.jpg" alt="A graphic showing computers"><img src="images/3.jpg" alt="A graphic representing a chart"></p>
+                <p id='double-image'><img src="images/2.jpg" alt="A graphic showing computers"><img src="images/3.jpg" alt="A graphic representing a chart"></p>
                 <p>Power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection.</p>
             </section>
             <section id="our-work-process">
@@ -110,8 +119,10 @@
             </section>
             <section id="download">
                 <h3>Download</h3>
-                <a href="#">Download Brochure</a>
-                <a href="#">Download Application</a>
+                <ul>
+                    <li><a href="#">Download Brochure</a></li>
+                    <li><a href="#">Download Application</a></li>
+                </ul>
             </section>
         </aside>
     </main>
@@ -120,11 +131,11 @@
             <p>
                 We are many variations of the passages available the majority have suffered alteration in some form by injected humour.
             </p>
-            <ul>
-                <li><a href="#" target="_blank">Facebook</a></li>
-                <li><a href="#" target="_blank">Instagram</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
-                <li><a href="#" target="_blank">Youtube</a></li>
+            <ul id='social-media-links'>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
             </ul>
             <h4>Quick Links</h4>
             <ul>
@@ -135,7 +146,7 @@
                 <li><a href="#">Our Services</a></li>
             </ul>
             <h4>Contact Us</h4>
-            <ul>
+            <ul id='addresses'>
                 <li><address>25/AB Road, New York, USA</address></li>
                 <li><a href="tel:123-4567-897">+2 123 4567 897</a></li>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
