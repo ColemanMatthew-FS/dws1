@@ -11,26 +11,27 @@
     <div class="intro">
         <!-- header -->
         <header>
+            <h1>Dataox</h1>
             <!-- logo -->
             <a href="#"><img id="logo" src="#urltoimg" alt="logo"></a>
             <!-- navigation -->
             <nav>
                 <ul class="dropdown">
-                    <!-- Each of these <li>s could be turned into dropdowns using <div> tags and CSS, but that's not for today -->
+                    <!-- Dropdown functionality was briefly present, but they have been commented out as they are not necessary to the assignment -->
                     <li>
                         <p>Home</p>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#">Homepage 01</a></li>
                             <li><a href="#">Homepage 02</a></li>
                             <li><a href="#">Homepage 03</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a href="#">About</a>
                     </li>
                     <li>
                         <a href="#">Pages</a>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Our Team</a></li>
                             <li><a href="#">Projects</a></li>
@@ -42,21 +43,21 @@
                             <li><a href="#">Terms of Service</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Coming Soon</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a href="#">Service</a>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Service Details</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a href="#">Blog</a>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Blog Single</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -71,10 +72,10 @@
         <section id="breadcrumbs">
             <h2>Service Single</h2>
             <!-- CSS could turn this list into breadcrumbs -->
-            <ul>
+            <ol>
                 <li><a href="#">Home</a></li>
                 <li id="service">Service Single</li>
-            </ul>
+            </ol>
         </section>
     </div>
     <main>
@@ -106,7 +107,7 @@
         <!-- aside -->
         <aside>
             <section id="all-category">
-                <h3>All Category</h3>
+                <h2>All Category</h2>
                 <ul>
                     <li><a href="#">Data Analysis</a></li>
                     <li><a href="#">Data Research</a></li>
@@ -118,7 +119,7 @@
                 </ul>
             </section>
             <section id="download">
-                <h3>Download</h3>
+                <h2>Download</h2>
                 <ul>
                     <li><a href="#">Download Brochure</a></li>
                     <li><a href="#">Download Application</a></li>
@@ -127,7 +128,8 @@
         </aside>
     </main>
     <footer>
-        <h4>Dataox</h4>
+        <section>
+            <h2>Dataox</h2>
             <p>
                 We are many variations of the passages available the majority have suffered alteration in some form by injected humour.
             </p>
@@ -137,7 +139,9 @@
                 <li><a href="#" target="_blank"></a></li>
                 <li><a href="#" target="_blank"></a></li>
             </ul>
-            <h4>Quick Links</h4>
+        </section>
+        <section>
+            <h3>Quick Links</h3>
             <ul>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">FAQ's</a></li>
@@ -145,20 +149,25 @@
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Our Services</a></li>
             </ul>
-            <h4>Contact Us</h4>
+        </section>
+        <section>
+            <h3>Contact Us</h3>
             <ul id='addresses'>
                 <li><address>25/AB Road, New York, USA</address></li>
                 <li><a href="tel:123-4567-897">+2 123 4567 897</a></li>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
                 <li>Sun - Fri (10AM - 08PM)</li>
             </ul>
-            <h4>Newsletter</h4>
+        </section>
+        <section>
+            <h3>Newsletter</h3>
             <p>Subscribe Our Newsletter To Get Latest Update And News</p>
             <input type="email" id="emailinput" placeholder="Your Email">
             <a href="#">Subscribe Now</a>
             <p>&copy; Copyright 2021 Techox All Rights Reserved.</p>
             <a href="#">Terms Of Service</a>
             <a href="#">Privacy Policy</a>
+        </section>           
     </footer>
 </body>
 </html>
