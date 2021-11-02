@@ -20,8 +20,7 @@ html{
 body{
 	font-size: 1.5rem;
 	line-height: 1.8;
-	font-family: 'abel', sans-serif;
-	font-family: 'barlow', sans-serif;
+	font-family: 'abel', 'barlow', sans-serif;
 }
 h1, h2, h3{
 	line-height: 1;
@@ -57,7 +56,6 @@ img{
 
 body{
 	width:100%;
-	height:auto;
 }
 li{
 	margin:1rem;
@@ -65,18 +63,13 @@ li{
 	position:relative;
 }
 /* Header */
-.intro{
+.head{
 	background-image:url(../images/breadcrumb.svg);
 	background-size:cover;
 	color:#fff;
 }
-.intro ul, .intro ol{
+.head ul, .head ol{
 	font-size:1.8rem;
-}
-header ul{
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
 }
 /* these used to pertain to the dropdown functionality, but have since been removed */
 /* nav > ul ul{
@@ -111,9 +104,9 @@ nav{
 }
 /* breadcrumbs */
 #breadcrumbs{
+	width:30rem;
 	margin-left:auto;
 	margin-right:auto;
-	text-align:center;
 	padding-top:3.5rem;
 	padding-bottom:7.5rem;
 }
@@ -126,12 +119,15 @@ nav{
 /* default structure */
 main, header{
 	max-width:100rem;
-	margin:0 auto;
+	margin:auto;
 	padding:8rem;
 }
 main > article{
 	width:60%;
 	float:right;
+}
+article li{
+	color:#666;
 }
 /* aside */
 aside{
@@ -168,8 +164,6 @@ footer{
 	color:#fff;
 	padding:5rem 15rem 5rem 15rem;
 	font-size:1.5rem;
-	margin-left:0 auto;
-	margin-right:0 auto;
 }
 footer p{
 	color:#fff;
