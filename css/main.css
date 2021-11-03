@@ -96,22 +96,22 @@ nav li:nth-of-type(7){
 nav{
 	display:flex;
 }
-#logo{
+.head img{
 	width:20rem;
 	margin-right:20rem;
 }
 /* breadcrumbs */
-#breadcrumbs{
+.head section{
 	width:28rem;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:3.5rem;
 	padding-bottom:7.5rem;
 }
-#breadcrumbs li{
+.head section li{
 	display:inline;
 }
-#breadcrumbs li:nth-of-type(2){
+.head section li:nth-of-type(2){
 	color:#ff5757;
 }
 /* default structure */
@@ -145,7 +145,7 @@ aside li{
 	margin-bottom:1.25rem;
 	display:block;
 }
-#download li{
+aside section:nth-of-type(2) li{
 	color:#504ddd;
 	border: .25rem solid #504ddd;
 	border-radius:1rem;
@@ -176,38 +176,38 @@ footer > a{
 	background-color:#504ddd;
 	border-radius:1rem;
 }
-#social-media-links > li{
+footer section:nth-of-type(1) ul > li{
 	padding:2rem 2rem 1rem 2rem;
 	background-color:#504ddd;
 	border-radius:1rem;
 	margin:1rem;
 	display:inline;
 }
-#social-media-links > li:nth-of-type(1){
+footer section:nth-of-type(1) ul > li:nth-of-type(1){
 	background-image:url(../images/fb.svg);
 	background-repeat:no-repeat;
 	background-size:3rem;
 	background-position:center;
 }
-#social-media-links > li:nth-of-type(2){
+footer section:nth-of-type(1) ul > li:nth-of-type(2){
 	background-image:url(../images/insta.svg);
 	background-repeat:no-repeat;
 	background-size:3rem;
 	background-position:center;
 }
-#social-media-links > li:nth-of-type(3){
+footer section:nth-of-type(1) ul > li:nth-of-type(3){
 	background-image:url(../images/twit.svg);
 	background-repeat:no-repeat;
 	background-size:3rem;
 	background-position:center;
 }
-#social-media-links > li:nth-of-type(4){
+footer section:nth-of-type(1) ul > li:nth-of-type(4){
 	background-image:url(../images/yt.svg);
 	background-repeat:no-repeat;
 	background-size:3rem;
 	background-position:center;
 }
-#addresses > li{
+footer section:nth-of-type(3) ul > li{
 	padding:1rem;
 	background-color:#504ddd;
 	border-radius:1rem;
