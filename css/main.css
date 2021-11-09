@@ -172,6 +172,11 @@ footer{
 	margin:auto;
 	padding:5rem 15rem 5rem 15rem;
 }
+#footer-area::after{
+	content:"";
+	display:block;
+	clear:both;
+}
 footer::after{
 	content:"";
 	display:block;
@@ -208,7 +213,11 @@ footer > p, footer > ul{
 	max-width:60%;
 	margin:auto;
 }
-
+#copyrightcontainer::after{
+	content:"";
+	display:block;
+	clear:both;
+}
 #copyrightcontainer > p{
 	width:calc(100%/2 - 10rem);
 	margin-right:10rem;
