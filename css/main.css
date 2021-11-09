@@ -18,9 +18,10 @@ html{
 	display:block;
 }
 body{
-	font-size: 1.5rem;
+	/* font-size: 1.5rem;
 	line-height: 1.8;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Barlow', sans-serif; */
+	font:1.5rem/1.8 "Barlow", sans-serif;
 	width:100%;
 }
 h1, h2, h3{
@@ -28,7 +29,7 @@ h1, h2, h3{
 	color:#222;
 }
 h1{
-	font-size: 10.5rem;
+	font: 10.5rem;
 	margin:2rem 0 1rem 0;
 	display:none;
 }
@@ -62,7 +63,7 @@ li{
 }
 /* Header */
 .head{
-	background-image:url(../images/breadcrumb.svg);
+	background:url(../images/breadcrumb.svg);
 	background-size:cover;
 	color:#fff;
 }
@@ -89,12 +90,18 @@ li{
 } */
 nav li:nth-of-type(7){
 	padding:1rem 2.5rem 1rem 2.5rem;
-	background-color:#504ddd;
+	background:#504ddd;
 	border-radius:1rem;
 
 }
-nav{
+/* nav{
 	display:flex;
+} */
+nav > a{
+	display:inline-block;
+}
+nav > ul{
+	display:inline-block;
 }
 .head img{
 	width:20rem;
@@ -129,6 +136,13 @@ article li{
 	font-size:1.8rem;
 	margin:.5rem;
 }
+main article p img{
+	width:calc(100%/2 - 2rem);
+	float:left;
+}
+main article p img:first-of-type{
+	margin-right:2rem;
+}
 /* aside */
 aside{
 	width:35%;
@@ -158,12 +172,28 @@ aside h2{
 /* footer */
 footer{
 	clear:both;
-	width:100%;
-	background-image:url(../images/breadcrumb.svg);
+	max-width:100%;
+	background:url(../images/breadcrumb.svg);
 	background-size:cover;
 	color:#fff;
-	padding:5rem 15rem 5rem 15rem;
 	font-size:1.5rem;
+}
+#footer-area{
+	max-width:60%;
+	margin:auto;
+	padding:5rem 15rem 5rem 15rem;
+}
+footer::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+footer section{
+	width:calc(100%/4 - 6rem/4);
+	float:left;
+}
+footer section:not(:nth-of-type(4)){
+	margin-right:2rem;
 }
 footer p{
 	color:#fff;
@@ -173,46 +203,97 @@ footer h3{
 }
 footer > a{
 	padding:1rem;
-	background-color:#504ddd;
+	background:#504ddd;
 	border-radius:1rem;
+}
+footer > p, footer > ul{
+	display:inline;
+}
+#copyright{
+	clear:both;
+	display:block;
+	border-top:1px solid #2a355e;
+	padding:1rem 0;
+}
+#copyrightcontainer{
+	max-width:60%;
+	margin:auto;
+}
+
+#copyrightcontainer > p{
+	width:calc(100%/2 - 10rem);
+	margin-right:10rem;
+	float:left;
+}
+#copyrightcontainer > p > a{
+	color:#ff5757;
+}
+#copyrightcontainer > ul{
+	float:right;
+}
+#copyrightcontainer > ul > li{
+	margin:0;
+}
+#copyrightcontainer > ul > li:nth-of-type(1){
+	margin-right:3rem;
 }
 footer section:nth-of-type(1) ul > li{
 	padding:2rem 2rem 1rem 2rem;
-	background-color:#504ddd;
+	background:#504ddd;
 	border-radius:1rem;
 	margin:1rem;
 	display:inline;
 }
+footer section:nth-of-type(2) li{
+	display:block;
+}
+footer section:nth-of-type(3) li{
+	display:block;
+}
 footer section:nth-of-type(1) ul > li:nth-of-type(1){
-	background-image:url(../images/fb.svg);
-	background-repeat:no-repeat;
-	background-size:3rem;
-	background-position:center;
+	background:url(../images/fb.svg) no-repeat center/3rem;
+	/* background-repeat:no-repeat; */
+	/* background-size:3rem; */
+	/* background-position:center; */
 }
 footer section:nth-of-type(1) ul > li:nth-of-type(2){
-	background-image:url(../images/insta.svg);
-	background-repeat:no-repeat;
+	background:url(../images/insta.svg) no-repeat center/3rem;
+	/* background-repeat:no-repeat;
 	background-size:3rem;
-	background-position:center;
+	background-position:center; */
 }
 footer section:nth-of-type(1) ul > li:nth-of-type(3){
-	background-image:url(../images/twit.svg);
-	background-repeat:no-repeat;
+	background:url(../images/twit.svg) no-repeat center/3rem;
+	/* background-repeat:no-repeat;
 	background-size:3rem;
-	background-position:center;
+	background-position:center; */
 }
 footer section:nth-of-type(1) ul > li:nth-of-type(4){
-	background-image:url(../images/yt.svg);
-	background-repeat:no-repeat;
+	background:url(../images/yt.svg) no-repeat center/3rem;
+	/* background-repeat:no-repeat;
 	background-size:3rem;
-	background-position:center;
+	background-position:center; */
 }
 footer section:nth-of-type(3) ul > li{
 	padding:1rem;
-	background-color:#504ddd;
+	background:#504ddd;
 	border-radius:1rem;
 	margin:1rem;
 	max-width:20rem;
+}
+footer section:nth-of-type(4) input{
+	border:2px solid #e8e8e8;
+	padding: 1rem 1.5rem 1.2rem 1.5rem;
+	border-radius:1rem;
+	width:100%;	
+	background-color:transparent;
+}
+footer section:nth-of-type(4) a{
+	display:block;
+	padding:1rem;
+	background:#504ddd;
+	border-radius:1rem;
+	margin-top:2rem;
 }
 input{
 	border: .25rem solid #fff;
