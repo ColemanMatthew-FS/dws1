@@ -127,6 +127,11 @@ main article p img{
 main article p img:first-of-type{
 	margin-right:2rem;
 }
+main article p:nth-of-type(3)::after{
+	content:"";
+	display:block;
+	clear:both;
+}
 /* aside */
 aside{
 	width:calc(40% - 5rem);
