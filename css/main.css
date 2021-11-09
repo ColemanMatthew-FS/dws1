@@ -1,5 +1,5 @@
 /* Google Fonts ======================== */
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet');
 /* CSS Reset =========================== */
 body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd {
 	margin: 0;
@@ -13,7 +13,7 @@ body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd 
 }
 /* typography defaults */
 html{
-	font-size:10px;
+	font-size:62.5%;
 	box-sizing:border-box;
 	display:block;
 }
@@ -59,7 +59,6 @@ img{
 li{
 	margin:1rem;
 	display:inline-block;
-	position:relative;
 }
 /* Header */
 .head{
@@ -237,7 +236,7 @@ footer > p, footer > ul{
 #copyrightcontainer > ul > li:nth-of-type(1){
 	margin-right:3rem;
 }
-footer section:nth-of-type(1) ul > li{
+#social-media-links > li{
 	padding:2rem 2rem 1rem 2rem;
 	background:#504ddd;
 	border-radius:1rem;
@@ -247,32 +246,17 @@ footer section:nth-of-type(1) ul > li{
 footer section:nth-of-type(2) li{
 	display:block;
 }
-footer section:nth-of-type(3) li{
-	display:block;
-}
-footer section:nth-of-type(1) ul > li:nth-of-type(1){
+#social-media-links li:nth-of-type(1){
 	background:url(../images/fb.svg) no-repeat center/3rem;
-	/* background-repeat:no-repeat; */
-	/* background-size:3rem; */
-	/* background-position:center; */
 }
-footer section:nth-of-type(1) ul > li:nth-of-type(2){
+#social-media-links li:nth-of-type(2){
 	background:url(../images/insta.svg) no-repeat center/3rem;
-	/* background-repeat:no-repeat;
-	background-size:3rem;
-	background-position:center; */
 }
-footer section:nth-of-type(1) ul > li:nth-of-type(3){
+#social-media-links > li:nth-of-type(3){
 	background:url(../images/twit.svg) no-repeat center/3rem;
-	/* background-repeat:no-repeat;
-	background-size:3rem;
-	background-position:center; */
 }
-footer section:nth-of-type(1) ul > li:nth-of-type(4){
+#social-media-links > li:nth-of-type(4){
 	background:url(../images/yt.svg) no-repeat center/3rem;
-	/* background-repeat:no-repeat;
-	background-size:3rem;
-	background-position:center; */
 }
 footer section:nth-of-type(3) ul > li{
 	padding:1rem;
@@ -280,6 +264,7 @@ footer section:nth-of-type(3) ul > li{
 	border-radius:1rem;
 	margin:1rem;
 	max-width:20rem;
+	display:block;
 }
 footer section:nth-of-type(4) input{
 	border:2px solid #e8e8e8;
