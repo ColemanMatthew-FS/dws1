@@ -1,5 +1,5 @@
 /* Google Fonts ======================== */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 /* CSS Reset =========================== */
 body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd {
 	margin: 0;
@@ -93,7 +93,6 @@ nav > ul{
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:11.5rem;
-	padding-bottom:0rem;
 }
 #breadcrumbs li{
 	display:inline;
