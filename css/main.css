@@ -18,9 +18,6 @@ html{
 	display:block;
 }
 body{
-	/* font-size: 1.5rem;
-	line-height: 1.8;
-	font-family: 'Barlow', sans-serif; */
 	font:1.5rem/1.8 "Barlow", sans-serif;
 	width:100%;
 }
@@ -61,73 +58,62 @@ li{
 	display:inline-block;
 }
 /* Header */
-.head{
+header{
 	background:url(../images/breadcrumb.svg);
 	background-size:cover;
-	color:#fff;
 }
-.head ul, .head ol{
+.wrapper{
+	color:#fff;
+	max-width:100rem;
+	margin:auto;
+	padding:8rem;
+}
+.wrapper ul, .wrapper ol{
 	font-size:1.8rem;
 }
-/* these used to pertain to the dropdown functionality, but have since been removed */
-/* nav > ul ul{
-	display:none;
-	color:#222;
-	position: absolute;
-	padding-left:3.5rem;
-	padding-right:7.5rem;
-	background-color:#fff;
-	width:25rem;
-	border: 1px solid rgba(0,0,0,.15);
-	border-radius:1.5rem;
-} */
-/* nav li:hover ul{
-	display:block;
-} */
-/* nav li:hover ul li{
-	display:block;
-} */
 nav li:nth-of-type(7){
 	padding:1rem 2.5rem 1rem 2.5rem;
 	background:#504ddd;
 	border-radius:1rem;
 
 }
-/* nav{
-	display:flex;
-} */
 nav > a{
 	display:inline-block;
 }
 nav > ul{
 	display:inline-block;
 }
-.head img{
+.wrapper img{
 	width:20rem;
 	margin-right:20rem;
 }
 /* breadcrumbs */
-.head section{
+#breadcrumbs{
 	width:28rem;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:3.5rem;
-	padding-bottom:7.5rem;
+	padding-top:11.5rem;
+	padding-bottom:0rem;
 }
-.head section li{
+#breadcrumbs li{
 	display:inline;
 }
-.head section li:nth-of-type(2){
+#breadcrumbs li:nth-of-type(2){
 	color:#ff5757;
 }
 /* default structure */
-main, header{
+main{
 	max-width:100rem;
 	margin:auto;
 	padding:8rem;
 }
+main::after{
+	content:"";
+	display:block;
+	clear:both;
+}
 main > article{
-	width:60%;
+	width:calc(60%);
 	float:right;
 }
 article li{
@@ -144,8 +130,9 @@ main article p img:first-of-type{
 }
 /* aside */
 aside{
-	width:35%;
+	width:calc(40% - 5rem);
 	float:left;
+	margin-right:5rem;
 }
 aside section{
 	padding: 1.5rem;
@@ -170,7 +157,6 @@ aside h2{
 }
 /* footer */
 footer{
-	clear:both;
 	max-width:100%;
 	background:url(../images/breadcrumb.svg);
 	background-size:cover;
