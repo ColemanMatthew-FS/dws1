@@ -42,7 +42,10 @@ main h2{
 	font-weight:bold;
 	margin:3rem 0 3rem 0;
 }
-main section:nth-of-type(1) h3{
+#contact-info{
+    display:none
+}
+#get-directions{
     display:none;
 }
 h3{
@@ -97,9 +100,12 @@ nav > ul{
 }
 /* breadcrumbs */
 #breadcrumbs{
-	width:28rem;
+	width:22rem;
 	margin:0 auto 0 auto;
 	padding:11.5rem 0 0 0;
+}
+#breadcrumbs ol{
+    padding-inline-start: 1rem;
 }
 #breadcrumbs li{
 	display:inline;
@@ -178,6 +184,7 @@ button{
     border:none;
     border-radius:1rem;
     padding:1rem 2rem;
+    box-shadow:0 0 2.5rem .5rem rgba(0, 0, 0, .1);
 }
 
 /* contact info */
@@ -217,10 +224,6 @@ button{
 .contact-info h3{
     margin-top: 10rem;
 }
-/* .contact-info img{
-    max-width:5rem;
-    margin:auto;
-} */
 .contact-info section:nth-of-type(1){
     background-image: url("../images/placeholder-3.svg");
     background-repeat: no-repeat;
