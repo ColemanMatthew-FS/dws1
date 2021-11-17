@@ -1,7 +1,7 @@
 /* Google Fonts ======================== */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 /* CSS Reset =========================== */
-body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd {
+body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd, fieldset, input, textarea, iframe {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -55,6 +55,29 @@ img{
 li{
 	margin:1rem;
 	display:inline-block;
+}
+fieldset{
+    font:1.5rem/1.8 "Barlow", sans-serif;
+    border:none;
+}
+label{
+    display:none;
+}
+input{
+    border:1px solid rgba(0, 0, 0, .1);
+    border-radius:1rem;
+    padding:2rem;
+    margin:.5rem .5rem .5rem 0;
+    width:100%;
+}
+button{
+    font:1.7rem/1.8 "Barlow", sans-serif;
+    background:#504ddd;
+    color:#fff;
+    border:none;
+    border-radius:1rem;
+    padding:1rem 2rem;
+    box-shadow:0 0 2.5rem .5rem rgba(0, 0, 0, .1);
 }
 /* Header */
 header{
@@ -297,12 +320,13 @@ footer section:nth-of-type(4) input{
 	width:100%;	
 	background:transparent;
 }
-footer section:nth-of-type(4) a{
+.newsletter button{
 	display:block;
 	padding:1rem;
 	background:#504ddd;
 	border-radius:1rem;
 	margin:2rem 0 0 0;
+	width:100%;
 }
 footer input{
 	border: .25rem solid #fff;

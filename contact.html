@@ -141,10 +141,19 @@
                 </ul>
             </section>
             <section>
-                <h3>Newsletter</h3>
-                <p>Subscribe Our Newsletter To Get Latest Update And News</p>
-                <input type="email" placeholder="Your Email">
-                <a href="#">Subscribe Now</a>
+                <form action="#urlfordata" method="post" id="newsletter-form">
+                    <fieldset class="newsletter">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe Our Newsletter To Get Latest Update And News</p>
+                        <div>
+                            <label for="newsletter-email">Your Email</label>
+                            <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Your Email" required="required">
+                        </div>
+                        <div>
+                            <button type="submit">Subscribe Now</button>
+                        </div>
+                    </fieldset>
+                </form>
             </section>
         </div>
         <div id="copyright"></div>
