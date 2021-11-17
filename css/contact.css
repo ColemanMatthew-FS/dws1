@@ -14,7 +14,6 @@ body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd,
 /* typography defaults */
 html{
 	font-size:62.5%;
-	display:block;
 }
 body{
 	font:1.5rem/1.8 "Barlow", sans-serif;
