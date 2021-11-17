@@ -254,6 +254,9 @@ textarea{
     width: calc(100%/2 - 1rem);
     float:right;
 }
+.contact-wrapper h3{
+	color:#005;
+}
 button{
     font:1.7rem/1.8 "Barlow", sans-serif;
     background:#504ddd;
