@@ -76,11 +76,17 @@ nav li:nth-of-type(7){
 	border-radius:1rem;
 
 }
-nav > a{
-	display:inline-block;
+#logo{
+	float:left;
 }
-nav > ul{
-	display:inline-block;
+nav ul{
+	float:right;
+	margin-top:-1rem;
+}
+.wrapper nav::after{
+	content:"";
+    display:block;
+    clear:both;
 }
 .wrapper img{
 	width:20rem;
