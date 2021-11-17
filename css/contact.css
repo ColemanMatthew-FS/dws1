@@ -14,7 +14,6 @@ body, nav, section, footer, article, h1, h2, h3, p, a, time, ul, li, dl, dt, dd,
 /* typography defaults */
 html{
 	font-size:62.5%;
-	box-sizing:border-box;
 	display:block;
 }
 body{
