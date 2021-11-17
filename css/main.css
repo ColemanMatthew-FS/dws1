@@ -246,6 +246,9 @@ footer > p, footer > ul{
 footer section:nth-of-type(2) li{
 	display:block;
 }
+#social-media-links li{
+	font-size:0;
+}
 #social-media-links li:nth-of-type(1){
 	background:url(../images/fb.svg) no-repeat center/3rem;
 }
@@ -258,12 +261,33 @@ footer section:nth-of-type(2) li{
 #social-media-links > li:nth-of-type(4){
 	background:url(../images/yt.svg) no-repeat center/3rem;
 }
+#contact-us li:nth-of-type(1){
+	background:url("../images/placeholder-3.svg") center/3rem no-repeat #504ddd;
+	border-radius:100rem;
+	float:left;
+	font-size:0;
+}
+#contact-us li:nth-of-type(3){
+	background:url("../images/smartphone-6.svg") center/3rem no-repeat #504ddd;
+	border-radius:100rem;
+	float:left;
+	font-size:0;
+}
+#contact-us li:nth-of-type(5){
+	background:url("../images/paper-plane-1.svg") center/3rem no-repeat #504ddd;
+	border-radius:100rem;
+	float:left;
+	font-size:0;
+}
+#contact-us li:nth-of-type(7){
+	background:url("../images/clock-1.svg") center/3rem no-repeat #504ddd;
+	border-radius:100rem;
+	float:left;
+	font-size:0;
+}
 footer section:nth-of-type(3) ul > li{
-	padding:1rem;
-	background:#504ddd;
-	border-radius:1rem;
-	margin:1rem;
-	max-width:20rem;
+	padding:2rem 0 2rem 4rem;
+	max-width:100%;
 	display:block;
 }
 footer section:nth-of-type(4) input{
@@ -280,6 +304,6 @@ footer section:nth-of-type(4) a{
 	border-radius:1rem;
 	margin:2rem 0 0 0;
 }
-input{
+footer input{
 	border: .25rem solid #fff;
 }
