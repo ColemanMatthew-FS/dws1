@@ -23,10 +23,6 @@ h1, h2, h3{
 	line-height: 1;
 	color:#222;
 }
-h1{
-	max-height:0px;
-	text-indent:-9999px;
-}
 h2{
 	font-size: 4rem;
 	margin: 3.5rem 0 1.5rem 0;
@@ -103,7 +99,7 @@ nav li:nth-of-type(7){
 	background:#504ddd;
 	border-radius:1rem;
 }
-#logo{
+h1{
 	float:left;
 }
 nav ul{
@@ -184,6 +180,9 @@ main article p:nth-of-type(3)::after{
     display:block;
     clear:both;
 }
+.contact-wrapper h3{
+	color:#005;
+}
 iframe{
     border:0;
     border-radius:1rem;
@@ -253,9 +252,6 @@ textarea{
 .contact div:nth-of-type(2){
     width: calc(100%/2 - 1rem);
     float:right;
-}
-.contact-wrapper h3{
-	color:#005;
 }
 button{
     font:1.7rem/1.8 "Barlow", sans-serif;
